@@ -39,7 +39,7 @@ session_start();
   <?php 
 
   
-$connect = mysqli_connect('localhost','root','','php');
+include("connect.php");
   if(isset($_POST['login'])){
 
     $username = $_POST['txtusername'];

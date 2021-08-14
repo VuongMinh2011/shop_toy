@@ -27,7 +27,7 @@
 	</div>
 	
 <?php
-	$connect = mysqli_connect('localhost','root','','php');
+	include("connect.php");
 	mysqli_set_charset($connect,"utf8");
 		if(!$connect){
 			echo "kết nối thất bại";

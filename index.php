@@ -112,7 +112,7 @@
     </div>
 
 <?php
-  $connect = mysqli_connect('localhost','root','','php');
+  include("connect.php");
     if (!$connect){
       echo "kết nối thất bại";
     }else{

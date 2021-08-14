@@ -114,7 +114,7 @@
 			</div>
 		</div>
 		<?php 
-		$conn = mysqli_connect('localhost','root','','php');
+		include("connect.php");
 		$sql="select*from song";
 		$result= $conn->query($sql);
 		while($song=$result->fetch_object()){

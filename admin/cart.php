@@ -110,7 +110,7 @@
   
 <?php 
 
-$connect = mysqli_connect('localhost','root','','php');
+include("connect.php");
 if(isset($_GET['id'])){
 if ($_SERVER['REQUEST_METHOD']=='GET') {
   $id =$_GET['id'];

@@ -103,7 +103,7 @@
     </div>
     </div>
 	 <?php
-	$conn = mysqli_connect('localhost','root','','php');
+	include("connect.php");
 	 if(isset($_GET['update_id'])){					
     $ProductID=$_GET['update_id'];
           $result=$conn->query("select * from song Where productID=$ProductID");
