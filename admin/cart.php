@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Tune Music | Singer</title>
+	<title>Cart Project</title>
 	<LINK REL="SHORTCUT ICON"  HREF="../image/ADT.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,7 +80,7 @@
   <div class="row mt-5">
     <h2 class="list-product-title">Cart</h2>
     <div class="list-product-subtitle">
-      <p>Add to cart</p>
+     
     </div>
     
   
