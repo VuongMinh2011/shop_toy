@@ -158,7 +158,7 @@
                 <?php
                 if(isset($_GET['delete_id'])){
                   $ProductID=$_GET['delete_id'];
-          $result2 = $conn->query("delete from song where ProductID=$ProductID");
+          $result2 = $connect->query("delete from song where ProductID=$ProductID");
 
                         if($result2){
                             echo "<script>alert('deleted data successfully')</script>";
