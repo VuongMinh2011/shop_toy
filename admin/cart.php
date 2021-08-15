@@ -34,25 +34,8 @@
                   <a class="nav-link" href="../index.php"> Home <span class="glyphicon glyphicon-home sr-only">(current)</span></a>
               </li>
               
-                  <li class="nav-item dropdown">
-                  
-                  
-              </li>
-                  
-              </li>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link" href="" id="navbarDropdown">
-                      Song details
-                  </a>
-                  <div class="dropdown-content">
-                      <a class="dropdown-item" href="../admin/listsong.php">List</a>
-                      <a class="dropdown-item" href="./admin/details.php"></a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-              </li>
           </ul>
+        </div>
 
           
           <form class="form-inline my-2 my-lg-0" action="./admin/search.php" method="GET">
