@@ -114,7 +114,7 @@
 			</div>
 		</div>
 		<?php 
-		include("../include/connect.php");
+		include("././include/connect.php");
 		$sql="select*from song";
 		$result= $conn->query($sql);
 		while($song=$result->fetch_object()){
