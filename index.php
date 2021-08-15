@@ -112,7 +112,7 @@
     </div>
 
 <?php
-  include("../include/connect.php");
+  include("include/connect.php");
     if (!$connect){
       echo "kết nối thất bại";
     }else{
