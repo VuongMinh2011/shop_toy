@@ -1,4 +1,3 @@
-<meta charset="utf-8">
 <?php
 $server = "13.212.100.240";
 $user = "minh";
@@ -9,4 +8,5 @@ if (!$connect) {
 	die("Connect Failed:".mysqli_connect_error());
 	# code...
 }
+mysqli_set_charset($connect, 'UTF8');
 ?>
