@@ -137,7 +137,7 @@
                 <label for="category">Genre</label>
                 <select name="GenreID">
                    <?php
-          $connect = mysqli_connect('localhost','root','','php');
+          $conn = mysqli_connect('localhost','root','','php');
                         $result=$connect->query("select * from genre");
                         while($row=$result->fetch_array()){
                             $catId=$row["GenreID"];
