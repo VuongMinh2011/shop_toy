@@ -123,7 +123,7 @@
          echo "<script>alert('ok)</script>";
          $Search="";
           $Search =$_GET['inputSearch'];
-         $result= mysqli_query($conn,"select * from song where song.productname like '%{$Search}%'");
+         $result= mysqli_query($connect,"select * from song where song.productname like '%{$Search}%'");
          $row=mysqli_fetch_array($result);
          $ida=$row['ProductID'];
          $Image=$row['Image'];
