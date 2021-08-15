@@ -129,8 +129,8 @@
                 <label for="category">Genre</label>
                 <select name="GenreID">
                     <?php
-          include("include/connect.php");
-                        $result=$conn->query("select * from genre");
+          include("../include/connect.php");
+                        $result=$connect->query("select * from genre");
                         while($row=$result->fetch_array()){
                             $catId=$row["GenreID"];
                             $catName=$row["GenreName"];
@@ -160,7 +160,7 @@
                     
           move_uploaded_file($_FILES['image']['tmp_name'],$target);
           
-                        $result2=$conn->query("insert into song values(NULL,'$ProductName','$Price','$OriGin','$Song_Image','$Genre')");
+                        $result2=$connect->query("insert into song values(NULL,'$ProductName','$Price','$OriGin','$Song_Image','$Genre')");
                         
           
                         if($result2){

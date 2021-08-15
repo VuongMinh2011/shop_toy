@@ -106,7 +106,7 @@
 	include("include/connect.php");
 	 if(isset($_GET['update_id'])){					
     $ProductID=$_GET['update_id'];
-          $result=$conn->query("select * from song Where productID=$ProductID");
+          $result=$connect->query("select * from song Where productID=$ProductID");
           $row=$result->fetch_object();
                 }        
       ?>
@@ -137,8 +137,8 @@
                 <label for="category">Genre</label>
                 <select name="GenreID">
                    <?php
-          $conn = mysqli_connect('localhost','root','','php');
-                        $result=$conn->query("select * from genre");
+          $connect = mysqli_connect('localhost','root','','php');
+                        $result=$connect->query("select * from genre");
                         while($row=$result->fetch_array()){
                             $catId=$row["GenreID"];
                             $catName=$row["GenreName"];
@@ -167,7 +167,7 @@
           
           move_uploaded_file($_FILES['image']['tmp_name'],$target);
           
-                         $result2=$conn->query("Update song set ProductName='$ProductName',Price='$Price',OriGin='$OriGin',image='$Song_Image',GenreID='$Genre' where ProductID=$ProductID");
+                         $result2=$connect->query("Update song set ProductName='$ProductName',Price='$Price',OriGin='$OriGin',image='$Song_Image',GenreID='$Genre' where ProductID=$ProductID");
                         
           
                         if($result2){
