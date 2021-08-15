@@ -103,7 +103,7 @@
     </div>
     </div>
 	 <?php
-	include("include/connect.php");
+	include("../include/connect.php");
 	 if(isset($_GET['update_id'])){					
     $ProductID=$_GET['update_id'];
           $result=$connect->query("select * from song Where productID=$ProductID");
@@ -137,7 +137,7 @@
                 <label for="category">Genre</label>
                 <select name="GenreID">
                    <?php
-          $conn = mysqli_connect('localhost','root','','php');
+          $connect = mysqli_connect('localhost','root','','php');
                         $result=$connect->query("select * from genre");
                         while($row=$result->fetch_array()){
                             $catId=$row["GenreID"];
