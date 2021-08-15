@@ -110,7 +110,7 @@
   
 <?php 
 
-include("include/connect.php");
+include("../include/connect.php");
 if(isset($_GET['id'])){
 if ($_SERVER['REQUEST_METHOD']=='GET') {
   $id =$_GET['id'];
