@@ -33,27 +33,7 @@
               <li class="nav-item active">
                   <a class="nav-link" href="../index.php"> Home <span class="glyphicon glyphicon-home sr-only">(current)</span></a>
               </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" id="navbarDropdown">
-                      Toy
-                  </a>
-                  <div class="dropdown-content">
-                      <a class="dropdown-item" href="./admin/addsong.php">Add</a>
-                      <a class="dropdown-item" href="../admin/editsong.php">Edit</a>
-                      
-                      
-                  </div>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" id="navbarDropdown">
-                      Song details
-                  </a>
-                  <div class="dropdown-content">
-                      <a class="dropdown-item" href="../admin/listsong.php">List</a>
-                      <a class="dropdown-item" href="../admin/details.php"></a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+              
                   <li class="nav-item dropdown">
                   
                   
