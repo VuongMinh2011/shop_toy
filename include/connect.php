@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <?php
 $server = "13.212.100.240";
 $user = "minh";
