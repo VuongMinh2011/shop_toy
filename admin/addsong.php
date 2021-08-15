@@ -129,7 +129,7 @@
                 <label for="category">Genre</label>
                 <select name="GenreID">
                     <?php
-          include("connect.php");
+          include("include/connect.php");
                         $result=$conn->query("select * from genre");
                         while($row=$result->fetch_array()){
                             $catId=$row["GenreID"];

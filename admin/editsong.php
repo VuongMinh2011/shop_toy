@@ -103,7 +103,7 @@
     </div>
     </div>
 	 <?php
-	include("connect.php");
+	include("include/connect.php");
 	 if(isset($_GET['update_id'])){					
     $ProductID=$_GET['update_id'];
           $result=$conn->query("select * from song Where productID=$ProductID");
