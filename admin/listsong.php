@@ -132,7 +132,7 @@
 				<p>$song->OriGin</p>
 			</div>
 			<div class='col-2'>
-				<img src='../Image/$song->Image' style='height: 60px; width: 60px;' >
+				<img src='../image/$song->Image' style='height: 60px; width: 60px;' >
 			</div>";
 			$GenreID=$song->GenreID;
 			$sql1="select*from genre where genreid=$GenreID";
